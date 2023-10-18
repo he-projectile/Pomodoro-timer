@@ -33,7 +33,7 @@ Section Cross References
     main.o(.text.systemTimerInit) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.text.systemTimerInit) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
     main.o(.text.systemTimerInit) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
-    main.o(.text.systemTimerInit) refers to main.o(.bss..L_MergedGlobals.7) for .L_MergedGlobals.7
+    main.o(.text.systemTimerInit) refers to main.o(.bss..L_MergedGlobals.8) for .L_MergedGlobals.8
     main.o(.text.systemTimerInit) refers to stm32f4xx_hal_tim.o(.text.HAL_TIM_Base_DeInit) for HAL_TIM_Base_DeInit
     main.o(.text.systemTimerInit) refers to stm32f4xx_hal_tim.o(.text.HAL_TIM_Base_Init) for HAL_TIM_Base_Init
     main.o(.text.systemTimerInit) refers to stm32f4xx_hal_tim.o(.text.HAL_TIM_Base_Start_IT) for HAL_TIM_Base_Start_IT
@@ -46,7 +46,7 @@ Section Cross References
     main.o(.text.systemTimerInterrupt) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.text.systemTimerInterrupt) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
     main.o(.text.systemTimerInterrupt) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
-    main.o(.text.systemTimerInterrupt) refers to main.o(.bss..L_MergedGlobals.7) for .L_MergedGlobals.7
+    main.o(.text.systemTimerInterrupt) refers to main.o(.bss..L_MergedGlobals.8) for .L_MergedGlobals.8
     main.o(.ARM.exidx.text.systemTimerInterrupt) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
     main.o(.ARM.exidx.text.systemTimerInterrupt) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.ARM.exidx.text.systemTimerInterrupt) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
@@ -56,7 +56,7 @@ Section Cross References
     main.o(.text.timerStart) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.text.timerStart) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
     main.o(.text.timerStart) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
-    main.o(.text.timerStart) refers to main.o(.bss..L_MergedGlobals.7) for .L_MergedGlobals.7
+    main.o(.text.timerStart) refers to main.o(.bss..L_MergedGlobals.8) for .L_MergedGlobals.8
     main.o(.ARM.exidx.text.timerStart) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
     main.o(.ARM.exidx.text.timerStart) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.ARM.exidx.text.timerStart) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
@@ -66,7 +66,7 @@ Section Cross References
     main.o(.text.isTimerFinished) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.text.isTimerFinished) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
     main.o(.text.isTimerFinished) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
-    main.o(.text.isTimerFinished) refers to main.o(.bss..L_MergedGlobals.7) for .L_MergedGlobals.7
+    main.o(.text.isTimerFinished) refers to main.o(.bss..L_MergedGlobals.8) for .L_MergedGlobals.8
     main.o(.ARM.exidx.text.isTimerFinished) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
     main.o(.ARM.exidx.text.isTimerFinished) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.ARM.exidx.text.isTimerFinished) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
@@ -76,7 +76,7 @@ Section Cross References
     main.o(.text.whatTimeIsIt) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.text.whatTimeIsIt) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
     main.o(.text.whatTimeIsIt) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
-    main.o(.text.whatTimeIsIt) refers to main.o(.bss..L_MergedGlobals.7) for .L_MergedGlobals.7
+    main.o(.text.whatTimeIsIt) refers to main.o(.bss..L_MergedGlobals.8) for .L_MergedGlobals.8
     main.o(.ARM.exidx.text.whatTimeIsIt) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
     main.o(.ARM.exidx.text.whatTimeIsIt) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.ARM.exidx.text.whatTimeIsIt) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
@@ -86,7 +86,7 @@ Section Cross References
     main.o(.text.whatTimeIsToFinish) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.text.whatTimeIsToFinish) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
     main.o(.text.whatTimeIsToFinish) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
-    main.o(.text.whatTimeIsToFinish) refers to main.o(.bss..L_MergedGlobals.7) for .L_MergedGlobals.7
+    main.o(.text.whatTimeIsToFinish) refers to main.o(.bss..L_MergedGlobals.8) for .L_MergedGlobals.8
     main.o(.ARM.exidx.text.whatTimeIsToFinish) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
     main.o(.ARM.exidx.text.whatTimeIsToFinish) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.ARM.exidx.text.whatTimeIsToFinish) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
@@ -103,19 +103,19 @@ Section Cross References
     main.o(.text.main) refers to tim.o(.text.MX_TIM5_Init) for MX_TIM5_Init
     main.o(.text.main) refers to i2c.o(.text.MX_I2C1_Init) for MX_I2C1_Init
     main.o(.text.main) refers to tim.o(.bss.htim5) for htim5
-    main.o(.text.main) refers to main.o(.bss..L_MergedGlobals.7) for .L_MergedGlobals.7
+    main.o(.text.main) refers to main.o(.bss..L_MergedGlobals.8) for .L_MergedGlobals.8
     main.o(.text.main) refers to stm32f4xx_hal_tim.o(.text.HAL_TIM_Base_DeInit) for HAL_TIM_Base_DeInit
     main.o(.text.main) refers to stm32f4xx_hal_tim.o(.text.HAL_TIM_Base_Init) for HAL_TIM_Base_Init
     main.o(.text.main) refers to stm32f4xx_hal_tim.o(.text.HAL_TIM_Base_Start_IT) for HAL_TIM_Base_Start_IT
     main.o(.text.main) refers to i2c.o(.bss.hi2c1) for hi2c1
     main.o(.text.main) refers to ssd1306.o(.text.ssd1306_Init) for ssd1306_Init
     main.o(.text.main) refers to ssd1306.o(.text.ssd1306_Fill) for ssd1306_Fill
+    main.o(.text.main) refers to stm32f4xx_hal_gpio.o(.text.HAL_GPIO_ReadPin) for HAL_GPIO_ReadPin
+    main.o(.text.main) refers to main.o(.data..L_MergedGlobals) for .L_MergedGlobals
     main.o(.text.main) refers to ssd1306.o(.text.ssd1306_SetCursor) for ssd1306_SetCursor
     main.o(.text.main) refers to fonts.o(.data.Font_11x18) for Font_11x18
     main.o(.text.main) refers to ssd1306.o(.text.ssd1306_WriteString) for ssd1306_WriteString
     main.o(.text.main) refers to ssd1306.o(.text.ssd1306_UpdateScreen) for ssd1306_UpdateScreen
-    main.o(.text.main) refers to stm32f4xx_hal_gpio.o(.text.HAL_GPIO_ReadPin) for HAL_GPIO_ReadPin
-    main.o(.text.main) refers to main.o(.data..L_MergedGlobals) for .L_MergedGlobals
     main.o(.text.main) refers to usb_device.o(.bss.hUsbDeviceFS) for hUsbDeviceFS
     main.o(.text.main) refers to usbd_hid.o(.text.USBD_HID_SendReport) for USBD_HID_SendReport
     main.o(.text.main) refers to stm32f4xx_hal.o(.text.HAL_Delay) for HAL_Delay
@@ -145,7 +145,8 @@ Section Cross References
     main.o(.text.pressWinD) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.text.pressWinD) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
     main.o(.text.pressWinD) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
-    main.o(.text.pressWinD) refers to main.o(.bss..L_MergedGlobals.7) for .L_MergedGlobals.7
+    main.o(.text.pressWinD) refers to main.o(.data..L_MergedGlobals) for .L_MergedGlobals
+    main.o(.text.pressWinD) refers to main.o(.bss..L_MergedGlobals.8) for .L_MergedGlobals.8
     main.o(.text.pressWinD) refers to usb_device.o(.bss.hUsbDeviceFS) for hUsbDeviceFS
     main.o(.text.pressWinD) refers to usbd_hid.o(.text.USBD_HID_SendReport) for USBD_HID_SendReport
     main.o(.text.pressWinD) refers to stm32f4xx_hal.o(.text.HAL_Delay) for HAL_Delay
@@ -191,10 +192,10 @@ Section Cross References
     main.o(.data..L_MergedGlobals) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
     main.o(.data..L_MergedGlobals) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
     main.o(.data..L_MergedGlobals) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
-    main.o(.bss..L_MergedGlobals.7) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
-    main.o(.bss..L_MergedGlobals.7) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
-    main.o(.bss..L_MergedGlobals.7) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
-    main.o(.bss..L_MergedGlobals.7) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    main.o(.bss..L_MergedGlobals.8) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    main.o(.bss..L_MergedGlobals.8) refers (Special) to _printf_pad.o(.text) for _printf_pre_padding
+    main.o(.bss..L_MergedGlobals.8) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    main.o(.bss..L_MergedGlobals.8) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
     gpio.o(.text.MX_GPIO_Init) refers to stm32f4xx_hal_gpio.o(.text.HAL_GPIO_WritePin) for HAL_GPIO_WritePin
     gpio.o(.text.MX_GPIO_Init) refers to stm32f4xx_hal_gpio.o(.text.HAL_GPIO_Init) for HAL_GPIO_Init
     gpio.o(.ARM.exidx.text.MX_GPIO_Init) refers to gpio.o(.text.MX_GPIO_Init) for [Anonymous Symbol]
@@ -1452,7 +1453,7 @@ Removing Unused input sections from the image.
     Removing main.o(.ARM.exidx.text.whatTimeIsToFinish), (8 bytes).
     Removing main.o(.ARM.exidx.text.main), (8 bytes).
     Removing main.o(.ARM.exidx.text.SystemClock_Config), (8 bytes).
-    Removing main.o(.text.pressWinD), (64 bytes).
+    Removing main.o(.text.pressWinD), (74 bytes).
     Removing main.o(.ARM.exidx.text.pressWinD), (8 bytes).
     Removing main.o(.ARM.exidx.text.Error_Handler), (8 bytes).
     Removing main.o(.bss.btn_stat), (1 bytes).
@@ -2450,7 +2451,7 @@ Removing Unused input sections from the image.
     Removing usbd_hid.o(.text.USBD_HID_GetPollingInterval), (12 bytes).
     Removing usbd_hid.o(.ARM.exidx.text.USBD_HID_GetPollingInterval), (8 bytes).
 
-1011 unused section(s) (total 65899 bytes) removed from the image.
+1011 unused section(s) (total 65909 bytes) removed from the image.
 
 ==============================================================================
 
@@ -2831,32 +2832,32 @@ Image Symbol Table
     [Anonymous Symbol]                       0x08004d28   Section        0  stm32f4xx_ll_usb.o(.text.USB_WritePacket)
     [Anonymous Symbol]                       0x08004d9c   Section        0  stm32f4xx_it.o(.text.UsageFault_Handler)
     [Anonymous Symbol]                       0x08004da0   Section        0  main.o(.text.main)
-    __arm_cp.6_8                             0x080050e8   Number         4  main.o(.text.main)
-    [Anonymous Symbol]                       0x080052cc   Section        0  ssd1306.o(.text.ssd1306_Fill)
-    [Anonymous Symbol]                       0x080052e8   Section        0  ssd1306.o(.text.ssd1306_Init)
-    [Anonymous Symbol]                       0x08005640   Section        0  ssd1306.o(.text.ssd1306_SetCursor)
-    [Anonymous Symbol]                       0x08005650   Section        0  ssd1306.o(.text.ssd1306_UpdateScreen)
-    [Anonymous Symbol]                       0x080056f0   Section        0  ssd1306.o(.text.ssd1306_WriteChar)
-    [Anonymous Symbol]                       0x080059c4   Section        0  ssd1306.o(.text.ssd1306_WriteString)
-    [Anonymous Symbol]                       0x08005a00   Section        0  main.o(.text.systemTimerInterrupt)
-    i.__hardfp_truncf                        0x08005a10   Section        0  truncf.o(i.__hardfp_truncf)
-    i._is_digit                              0x08005a6c   Section        0  __printf_wp.o(i._is_digit)
-    $v0                                      0x08005a7a   Number         0  ffltll_clz.o(x$fpl$ffltll)
-    x$fpl$ffltll                             0x08005a7a   Section       96  ffltll_clz.o(x$fpl$ffltll)
-    $v0                                      0x08005ada   Number         0  fnaninf.o(x$fpl$fnaninf)
-    x$fpl$fnaninf                            0x08005ada   Section      140  fnaninf.o(x$fpl$fnaninf)
-    $v0                                      0x08005b66   Number         0  fpinit.o(x$fpl$fpinit)
-    x$fpl$fpinit                             0x08005b66   Section       26  fpinit.o(x$fpl$fpinit)
-    $v0                                      0x08005b80   Number         0  frnd.o(x$fpl$frnd)
-    x$fpl$frnd                               0x08005b80   Section       96  frnd.o(x$fpl$frnd)
-    maptable                                 0x08005be0   Data          17  __printf_flags_wp.o(.constdata)
-    .constdata                               0x08005be0   Section       17  __printf_flags_wp.o(.constdata)
-    x$fpl$usenofp                            0x08005be0   Section        0  usenofp.o(x$fpl$usenofp)
-    Font11x18                                0x08005c0a   Data        3420  fonts.o(.rodata.Font11x18)
-    [Anonymous Symbol]                       0x08005c0a   Section        0  fonts.o(.rodata.Font11x18)
+    __arm_cp.6_9                             0x08004f14   Number         4  main.o(.text.main)
+    [Anonymous Symbol]                       0x08005310   Section        0  ssd1306.o(.text.ssd1306_Fill)
+    [Anonymous Symbol]                       0x0800532c   Section        0  ssd1306.o(.text.ssd1306_Init)
+    [Anonymous Symbol]                       0x08005684   Section        0  ssd1306.o(.text.ssd1306_SetCursor)
+    [Anonymous Symbol]                       0x08005694   Section        0  ssd1306.o(.text.ssd1306_UpdateScreen)
+    [Anonymous Symbol]                       0x08005734   Section        0  ssd1306.o(.text.ssd1306_WriteChar)
+    [Anonymous Symbol]                       0x08005a08   Section        0  ssd1306.o(.text.ssd1306_WriteString)
+    [Anonymous Symbol]                       0x08005a44   Section        0  main.o(.text.systemTimerInterrupt)
+    i.__hardfp_truncf                        0x08005a54   Section        0  truncf.o(i.__hardfp_truncf)
+    i._is_digit                              0x08005ab0   Section        0  __printf_wp.o(i._is_digit)
+    $v0                                      0x08005abe   Number         0  ffltll_clz.o(x$fpl$ffltll)
+    x$fpl$ffltll                             0x08005abe   Section       96  ffltll_clz.o(x$fpl$ffltll)
+    $v0                                      0x08005b1e   Number         0  fnaninf.o(x$fpl$fnaninf)
+    x$fpl$fnaninf                            0x08005b1e   Section      140  fnaninf.o(x$fpl$fnaninf)
+    $v0                                      0x08005baa   Number         0  fpinit.o(x$fpl$fpinit)
+    x$fpl$fpinit                             0x08005baa   Section       26  fpinit.o(x$fpl$fpinit)
+    $v0                                      0x08005bc4   Number         0  frnd.o(x$fpl$frnd)
+    x$fpl$frnd                               0x08005bc4   Section       96  frnd.o(x$fpl$frnd)
+    maptable                                 0x08005c24   Data          17  __printf_flags_wp.o(.constdata)
+    .constdata                               0x08005c24   Section       17  __printf_flags_wp.o(.constdata)
+    x$fpl$usenofp                            0x08005c24   Section        0  usenofp.o(x$fpl$usenofp)
+    Font11x18                                0x08005c4e   Data        3420  fonts.o(.rodata.Font11x18)
+    [Anonymous Symbol]                       0x08005c4e   Section        0  fonts.o(.rodata.Font11x18)
     .L_MergedGlobals                         0x20000000   Data           4  main.o(.data..L_MergedGlobals)
-    main.pinState                            0x20000000   Data           1  main.o(.data..L_MergedGlobals)
     [Anonymous Symbol]                       0x20000000   Section        0  main.o(.data..L_MergedGlobals)
+    main.pinState                            0x20000001   Data           1  main.o(.data..L_MergedGlobals)
     .L_MergedGlobals                         0x20000004   Data           8  stm32f4xx_hal.o(.data..L_MergedGlobals)
     [Anonymous Symbol]                       0x20000004   Section        0  stm32f4xx_hal.o(.data..L_MergedGlobals)
     .L_MergedGlobals                         0x2000000c   Data          75  usbd_hid.o(.data..L_MergedGlobals)
@@ -2877,10 +2878,10 @@ Image Symbol Table
     [Anonymous Symbol]                       0x200001c8   Section        0  ssd1306.o(.bss..L_MergedGlobals)
     SSD1306.0                                0x200001ca   Data           2  ssd1306.o(.bss..L_MergedGlobals)
     SSD1306.1                                0x200001cc   Data           2  ssd1306.o(.bss..L_MergedGlobals)
-    .L_MergedGlobals.7                       0x200001d0   Data         120  main.o(.bss..L_MergedGlobals.7)
-    [Anonymous Symbol]                       0x200001d0   Section        0  main.o(.bss..L_MergedGlobals.7)
-    systemTimer1.0                           0x200001d8   Data           4  main.o(.bss..L_MergedGlobals.7)
-    systemTimer1.1                           0x200001dc   Data           4  main.o(.bss..L_MergedGlobals.7)
+    .L_MergedGlobals.8                       0x200001d0   Data         120  main.o(.bss..L_MergedGlobals.8)
+    [Anonymous Symbol]                       0x200001d0   Section        0  main.o(.bss..L_MergedGlobals.8)
+    systemTimer1.0                           0x200001d8   Data           4  main.o(.bss..L_MergedGlobals.8)
+    systemTimer1.1                           0x200001dc   Data           4  main.o(.bss..L_MergedGlobals.8)
     SSD1306_Buffer                           0x20000248   Data        1024  ssd1306.o(.bss.SSD1306_Buffer)
     [Anonymous Symbol]                       0x20000248   Section        0  ssd1306.o(.bss.SSD1306_Buffer)
     USBD_SetConfig.cfgidx                    0x20000648   Data           1  usbd_ctlreq.o(.bss.USBD_SetConfig.cfgidx)
@@ -3231,30 +3232,31 @@ Image Symbol Table
     USB_SetTurnaroundTime                    0x08004c09   Thumb Code   288  stm32f4xx_ll_usb.o(.text.USB_SetTurnaroundTime)
     USB_WritePacket                          0x08004d29   Thumb Code   114  stm32f4xx_ll_usb.o(.text.USB_WritePacket)
     UsageFault_Handler                       0x08004d9d   Thumb Code     2  stm32f4xx_it.o(.text.UsageFault_Handler)
-    main                                     0x08004da1   Thumb Code  1240  main.o(.text.main)
-    ssd1306_Fill                             0x080052cd   Thumb Code    28  ssd1306.o(.text.ssd1306_Fill)
-    ssd1306_Init                             0x080052e9   Thumb Code   854  ssd1306.o(.text.ssd1306_Init)
-    ssd1306_SetCursor                        0x08005641   Thumb Code    14  ssd1306.o(.text.ssd1306_SetCursor)
-    ssd1306_UpdateScreen                     0x08005651   Thumb Code   158  ssd1306.o(.text.ssd1306_UpdateScreen)
-    ssd1306_WriteChar                        0x080056f1   Thumb Code   722  ssd1306.o(.text.ssd1306_WriteChar)
-    ssd1306_WriteString                      0x080059c5   Thumb Code    60  ssd1306.o(.text.ssd1306_WriteString)
-    systemTimerInterrupt                     0x08005a01   Thumb Code    16  main.o(.text.systemTimerInterrupt)
-    __hardfp_truncf                          0x08005a11   Thumb Code    92  truncf.o(i.__hardfp_truncf)
-    _is_digit                                0x08005a6d   Thumb Code    14  __printf_wp.o(i._is_digit)
-    __aeabi_ul2f                             0x08005a7b   Thumb Code     0  ffltll_clz.o(x$fpl$ffltll)
-    _ll_uto_f                                0x08005a7b   Thumb Code     6  ffltll_clz.o(x$fpl$ffltll)
-    __aeabi_l2f                              0x08005a81   Thumb Code     0  ffltll_clz.o(x$fpl$ffltll)
-    _ll_sto_f                                0x08005a81   Thumb Code    90  ffltll_clz.o(x$fpl$ffltll)
-    __fpl_fnaninf                            0x08005adb   Thumb Code   140  fnaninf.o(x$fpl$fnaninf)
-    _fp_init                                 0x08005b67   Thumb Code    26  fpinit.o(x$fpl$fpinit)
-    __fplib_config_fpu_vfp                   0x08005b7f   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    __fplib_config_pureend_doubles           0x08005b7f   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    _frnd                                    0x08005b81   Thumb Code    96  frnd.o(x$fpl$frnd)
-    __I$use$fp                               0x08005be0   Number         0  usenofp.o(x$fpl$usenofp)
-    AHBPrescTable                            0x08005bf1   Data          16  system_stm32f4xx.o(.rodata.AHBPrescTable)
-    APBPrescTable                            0x08005c01   Data           8  system_stm32f4xx.o(.rodata.APBPrescTable)
-    Region$$Table$$Base                      0x08006968   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08006988   Number         0  anon$$obj.o(Region$$Table)
+    main                                     0x08004da1   Thumb Code  1292  main.o(.text.main)
+    ssd1306_Fill                             0x08005311   Thumb Code    28  ssd1306.o(.text.ssd1306_Fill)
+    ssd1306_Init                             0x0800532d   Thumb Code   854  ssd1306.o(.text.ssd1306_Init)
+    ssd1306_SetCursor                        0x08005685   Thumb Code    14  ssd1306.o(.text.ssd1306_SetCursor)
+    ssd1306_UpdateScreen                     0x08005695   Thumb Code   158  ssd1306.o(.text.ssd1306_UpdateScreen)
+    ssd1306_WriteChar                        0x08005735   Thumb Code   722  ssd1306.o(.text.ssd1306_WriteChar)
+    ssd1306_WriteString                      0x08005a09   Thumb Code    60  ssd1306.o(.text.ssd1306_WriteString)
+    systemTimerInterrupt                     0x08005a45   Thumb Code    16  main.o(.text.systemTimerInterrupt)
+    __hardfp_truncf                          0x08005a55   Thumb Code    92  truncf.o(i.__hardfp_truncf)
+    _is_digit                                0x08005ab1   Thumb Code    14  __printf_wp.o(i._is_digit)
+    __aeabi_ul2f                             0x08005abf   Thumb Code     0  ffltll_clz.o(x$fpl$ffltll)
+    _ll_uto_f                                0x08005abf   Thumb Code     6  ffltll_clz.o(x$fpl$ffltll)
+    __aeabi_l2f                              0x08005ac5   Thumb Code     0  ffltll_clz.o(x$fpl$ffltll)
+    _ll_sto_f                                0x08005ac5   Thumb Code    90  ffltll_clz.o(x$fpl$ffltll)
+    __fpl_fnaninf                            0x08005b1f   Thumb Code   140  fnaninf.o(x$fpl$fnaninf)
+    _fp_init                                 0x08005bab   Thumb Code    26  fpinit.o(x$fpl$fpinit)
+    __fplib_config_fpu_vfp                   0x08005bc3   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    __fplib_config_pureend_doubles           0x08005bc3   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    _frnd                                    0x08005bc5   Thumb Code    96  frnd.o(x$fpl$frnd)
+    __I$use$fp                               0x08005c24   Number         0  usenofp.o(x$fpl$usenofp)
+    AHBPrescTable                            0x08005c35   Data          16  system_stm32f4xx.o(.rodata.AHBPrescTable)
+    APBPrescTable                            0x08005c45   Data           8  system_stm32f4xx.o(.rodata.APBPrescTable)
+    Region$$Table$$Base                      0x080069ac   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080069cc   Number         0  anon$$obj.o(Region$$Table)
+    key_sel                                  0x20000000   Data           1  main.o(.data..L_MergedGlobals)
     ledBlinkingPeriodInitialMs               0x20000002   Data           2  main.o(.data..L_MergedGlobals)
     uwTickFreq                               0x20000004   Data           1  stm32f4xx_hal.o(.data..L_MergedGlobals)
     uwTickPrio                               0x20000008   Data           4  stm32f4xx_hal.o(.data..L_MergedGlobals)
@@ -3267,16 +3269,16 @@ Image Symbol Table
     USBD_StringSerial                        0x20000148   Data          26  usbd_desc.o(.data.USBD_StringSerial)
     __libspace_start                         0x20000168   Data          96  libspace.o(.bss)
     __temporary_stack_top$libspace           0x200001c8   Data           0  libspace.o(.bss)
-    pomodoroInterval                         0x200001d0   Data           1  main.o(.bss..L_MergedGlobals.7)
-    pomodoroIntervalChangeRequest            0x200001d1   Data           1  main.o(.bss..L_MergedGlobals.7)
-    pomodoroIntervalIsChanged                0x200001d2   Data           1  main.o(.bss..L_MergedGlobals.7)
-    oledIsIntervalChanged                    0x200001d3   Data           1  main.o(.bss..L_MergedGlobals.7)
-    intervalCnt                              0x200001d4   Data           2  main.o(.bss..L_MergedGlobals.7)
-    keyBoardHIDsub                           0x200001e0   Data           8  main.o(.bss..L_MergedGlobals.7)
-    timeFromStart                            0x200001e8   Data          24  main.o(.bss..L_MergedGlobals.7)
-    pomodoroTimer                            0x20000200   Data          24  main.o(.bss..L_MergedGlobals.7)
-    ledBlinkingTimer                         0x20000218   Data          24  main.o(.bss..L_MergedGlobals.7)
-    oledUpdate                               0x20000230   Data          24  main.o(.bss..L_MergedGlobals.7)
+    pomodoroInterval                         0x200001d0   Data           1  main.o(.bss..L_MergedGlobals.8)
+    pomodoroIntervalChangeRequest            0x200001d1   Data           1  main.o(.bss..L_MergedGlobals.8)
+    pomodoroIntervalIsChanged                0x200001d2   Data           1  main.o(.bss..L_MergedGlobals.8)
+    oledIsIntervalChanged                    0x200001d3   Data           1  main.o(.bss..L_MergedGlobals.8)
+    intervalCnt                              0x200001d4   Data           2  main.o(.bss..L_MergedGlobals.8)
+    keyBoardHIDsub                           0x200001e0   Data           8  main.o(.bss..L_MergedGlobals.8)
+    timeFromStart                            0x200001e8   Data          24  main.o(.bss..L_MergedGlobals.8)
+    pomodoroTimer                            0x20000200   Data          24  main.o(.bss..L_MergedGlobals.8)
+    ledBlinkingTimer                         0x20000218   Data          24  main.o(.bss..L_MergedGlobals.8)
+    oledUpdate                               0x20000230   Data          24  main.o(.bss..L_MergedGlobals.8)
     USBD_StrDesc                             0x2000064c   Data         512  usbd_desc.o(.bss.USBD_StrDesc)
     hUsbDeviceFS                             0x20000860   Data         720  usb_device.o(.bss.hUsbDeviceFS)
     hi2c1                                    0x20000b30   Data          84  i2c.o(.bss.hi2c1)
@@ -3292,9 +3294,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000195
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00006af0, Max: 0x00040000, ABSOLUTE, COMPRESSED[0x00006a60])
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00006b38, Max: 0x00040000, ABSOLUTE, COMPRESSED[0x00006aa8])
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00006988, Max: 0x00040000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000069cc, Max: 0x00040000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -3621,35 +3623,35 @@ Memory Map of the image
     0x08004d9a   0x08004d9a   0x00000002   PAD
     0x08004d9c   0x08004d9c   0x00000002   Code   RO           94    .text.UsageFault_Handler  stm32f4xx_it.o
     0x08004d9e   0x08004d9e   0x00000002   PAD
-    0x08004da0   0x08004da0   0x0000052c   Code   RO           23    .text.main          main.o
-    0x080052cc   0x080052cc   0x0000001c   Code   RO          136    .text.ssd1306_Fill  ssd1306.o
-    0x080052e8   0x080052e8   0x00000356   Code   RO          134    .text.ssd1306_Init  ssd1306.o
-    0x0800563e   0x0800563e   0x00000002   PAD
-    0x08005640   0x08005640   0x0000000e   Code   RO          148    .text.ssd1306_SetCursor  ssd1306.o
-    0x0800564e   0x0800564e   0x00000002   PAD
-    0x08005650   0x08005650   0x0000009e   Code   RO          138    .text.ssd1306_UpdateScreen  ssd1306.o
-    0x080056ee   0x080056ee   0x00000002   PAD
-    0x080056f0   0x080056f0   0x000002d2   Code   RO          142    .text.ssd1306_WriteChar  ssd1306.o
-    0x080059c2   0x080059c2   0x00000002   PAD
-    0x080059c4   0x080059c4   0x0000003c   Code   RO          144    .text.ssd1306_WriteString  ssd1306.o
-    0x08005a00   0x08005a00   0x00000010   Code   RO           13    .text.systemTimerInterrupt  main.o
-    0x08005a10   0x08005a10   0x0000005c   Code   RO         1507    i.__hardfp_truncf   m_wm.l(truncf.o)
-    0x08005a6c   0x08005a6c   0x0000000e   Code   RO         1485    i._is_digit         c_w.l(__printf_wp.o)
-    0x08005a7a   0x08005a7a   0x00000060   Code   RO         1505    x$fpl$ffltll        fz_wm.l(ffltll_clz.o)
-    0x08005ada   0x08005ada   0x0000008c   Code   RO         1545    x$fpl$fnaninf       fz_wm.l(fnaninf.o)
-    0x08005b66   0x08005b66   0x0000001a   Code   RO         1636    x$fpl$fpinit        fz_wm.l(fpinit.o)
-    0x08005b80   0x08005b80   0x00000060   Code   RO         1523    x$fpl$frnd          fz_wm.l(frnd.o)
-    0x08005be0   0x08005be0   0x00000000   Code   RO         1525    x$fpl$usenofp       fz_wm.l(usenofp.o)
-    0x08005be0   0x08005be0   0x00000011   Data   RO         1488    .constdata          c_w.l(__printf_flags_wp.o)
-    0x08005bf1   0x08005bf1   0x00000010   Data   RO         1325    .rodata.AHBPrescTable  system_stm32f4xx.o
-    0x08005c01   0x08005c01   0x00000008   Data   RO         1326    .rodata.APBPrescTable  system_stm32f4xx.o
-    0x08005c09   0x08005c09   0x00000001   PAD
-    0x08005c0a   0x08005c0a   0x00000d5c   Data   RO          127    .rodata.Font11x18   fonts.o
-    0x08006966   0x08006966   0x00000002   PAD
-    0x08006968   0x08006968   0x00000020   Data   RO         1697    Region$$Table       anon$$obj.o
+    0x08004da0   0x08004da0   0x00000570   Code   RO           23    .text.main          main.o
+    0x08005310   0x08005310   0x0000001c   Code   RO          136    .text.ssd1306_Fill  ssd1306.o
+    0x0800532c   0x0800532c   0x00000356   Code   RO          134    .text.ssd1306_Init  ssd1306.o
+    0x08005682   0x08005682   0x00000002   PAD
+    0x08005684   0x08005684   0x0000000e   Code   RO          148    .text.ssd1306_SetCursor  ssd1306.o
+    0x08005692   0x08005692   0x00000002   PAD
+    0x08005694   0x08005694   0x0000009e   Code   RO          138    .text.ssd1306_UpdateScreen  ssd1306.o
+    0x08005732   0x08005732   0x00000002   PAD
+    0x08005734   0x08005734   0x000002d2   Code   RO          142    .text.ssd1306_WriteChar  ssd1306.o
+    0x08005a06   0x08005a06   0x00000002   PAD
+    0x08005a08   0x08005a08   0x0000003c   Code   RO          144    .text.ssd1306_WriteString  ssd1306.o
+    0x08005a44   0x08005a44   0x00000010   Code   RO           13    .text.systemTimerInterrupt  main.o
+    0x08005a54   0x08005a54   0x0000005c   Code   RO         1507    i.__hardfp_truncf   m_wm.l(truncf.o)
+    0x08005ab0   0x08005ab0   0x0000000e   Code   RO         1485    i._is_digit         c_w.l(__printf_wp.o)
+    0x08005abe   0x08005abe   0x00000060   Code   RO         1505    x$fpl$ffltll        fz_wm.l(ffltll_clz.o)
+    0x08005b1e   0x08005b1e   0x0000008c   Code   RO         1545    x$fpl$fnaninf       fz_wm.l(fnaninf.o)
+    0x08005baa   0x08005baa   0x0000001a   Code   RO         1636    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x08005bc4   0x08005bc4   0x00000060   Code   RO         1523    x$fpl$frnd          fz_wm.l(frnd.o)
+    0x08005c24   0x08005c24   0x00000000   Code   RO         1525    x$fpl$usenofp       fz_wm.l(usenofp.o)
+    0x08005c24   0x08005c24   0x00000011   Data   RO         1488    .constdata          c_w.l(__printf_flags_wp.o)
+    0x08005c35   0x08005c35   0x00000010   Data   RO         1325    .rodata.AHBPrescTable  system_stm32f4xx.o
+    0x08005c45   0x08005c45   0x00000008   Data   RO         1326    .rodata.APBPrescTable  system_stm32f4xx.o
+    0x08005c4d   0x08005c4d   0x00000001   PAD
+    0x08005c4e   0x08005c4e   0x00000d5c   Data   RO          127    .rodata.Font11x18   fonts.o
+    0x080069aa   0x080069aa   0x00000002   PAD
+    0x080069ac   0x080069ac   0x00000020   Data   RO         1697    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08006988, Size: 0x000015d8, Max: 0x00010000, ABSOLUTE, COMPRESSED[0x000000d8])
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x080069d0, Size: 0x000015d8, Max: 0x00010000, ABSOLUTE, COMPRESSED[0x000000d8])
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -3677,7 +3679,7 @@ Memory Map of the image
     0x20000168        -       0x00000060   Zero   RW         1562    .bss                c_w.l(libspace.o)
     0x200001c8        -       0x00000006   Zero   RW          151    .bss..L_MergedGlobals  ssd1306.o
     0x200001ce   COMPRESSED   0x00000002   PAD
-    0x200001d0        -       0x00000078   Zero   RW           38    .bss..L_MergedGlobals.7  main.o
+    0x200001d0        -       0x00000078   Zero   RW           38    .bss..L_MergedGlobals.8  main.o
     0x20000248        -       0x00000400   Zero   RW          150    .bss.SSD1306_Buffer  ssd1306.o
     0x20000648        -       0x00000001   Zero   RW         1395    .bss.USBD_SetConfig.cfgidx  usbd_ctlreq.o
     0x20000649   COMPRESSED   0x00000003   PAD
@@ -3702,7 +3704,7 @@ Image component sizes
          0          0       3420          8          0        855   fonts.o
        162          0          0          0          0       2217   gpio.o
        174          0          0          0         84       5320   i2c.o
-      1526         88          0          4        120      13526   main.o
+      1594        104          0          4        120      13473   main.o
       1836          0          0          0       1030       9940   ssd1306.o
         64         26        404          0       1536        848   startup_stm32f401xc.o
        204          0          0          8          4       6854   stm32f4xx_hal.o
@@ -3728,7 +3730,7 @@ Image component sizes
        102          0          0          0          0       4585   usbd_ioreq.o
 
     ----------------------------------------------------------------------
-     21056        236       3883        356       5140     318812   Object Totals
+     21124        252       3883        356       5140     318759   Object Totals
          0          0         32          0          0          0   (incl. Generated)
        174          0          3         13          9          0   (incl. Padding)
 
@@ -3800,15 +3802,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     23116        292       3900        356       5236     319504   Grand Totals
-     23116        292       3900        216       5236     319504   ELF Image Totals (compressed)
-     23116        292       3900        216          0          0   ROM Totals
+     23184        308       3900        356       5236     319451   Grand Totals
+     23184        308       3900        216       5236     319451   ELF Image Totals (compressed)
+     23184        308       3900        216          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                27016 (  26.38kB)
+    Total RO  Size (Code + RO Data)                27084 (  26.45kB)
     Total RW  Size (RW Data + ZI Data)              5592 (   5.46kB)
-    Total ROM Size (Code + RO Data + RW Data)      27232 (  26.59kB)
+    Total ROM Size (Code + RO Data + RW Data)      27300 (  26.66kB)
 
 ==============================================================================
 

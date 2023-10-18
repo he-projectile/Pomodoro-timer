@@ -41,6 +41,8 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define CLEAR_SCREEN_MAC 0x0B
+#define CLEAR_SCREEN_WIN 0x07
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -98,6 +100,8 @@ struct timerEntity oledUpdate;
 uint8_t oledIsIntervalChanged = 0;
 
 const uint16_t wortDurationS = 25*60, restDurationS = 5*60; 
+
+uint8_t key_sel = CLEAR_SCREEN_MAC;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -147,13 +151,22 @@ int main(void)
 	timerStart(&timeFromStart, 0, 0);
 	
   ssd1306_Init(&hi2c1);
-
   ssd1306_Fill(Black);
+	
+	if ( HAL_GPIO_ReadPin(PCB_BTN_GPIO_Port, PCB_BTN_Pin) == 0 )
+		key_sel = CLEAR_SCREEN_WIN;
+	
   ssd1306_SetCursor(5, 10);
   ssd1306_WriteString("Pomodoro", Font_11x18, White);
 	ssd1306_SetCursor(5, 32);
-  ssd1306_WriteString("timer", Font_11x18, White);
-  ssd1306_UpdateScreen(&hi2c1);	
+	if( key_sel == CLEAR_SCREEN_MAC)
+		ssd1306_WriteString("timer  MAC", Font_11x18, White);
+	else
+		ssd1306_WriteString("timer  WIN", Font_11x18, White);
+  ssd1306_UpdateScreen(&hi2c1);
+	
+	while( HAL_GPIO_ReadPin(PCB_BTN_GPIO_Port, PCB_BTN_Pin) == 0 ){;}
+	
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -230,6 +243,9 @@ int main(void)
 			char str[15];			
 			switch ((uint8_t) pomodoroInterval){
 				case POMODORO_WORK:
+					ssd1306_Fill(Black);				
+					ssd1306_UpdateScreen(&hi2c1);
+				
 					ssd1306_SetCursor(5, 10);
 					ssd1306_WriteString("WORK HARD!   ", Font_11x18, White);
 					ssd1306_UpdateScreen(&hi2c1);
@@ -333,7 +349,7 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
 void pressWinD(void){
 				keyBoardHIDsub.MODIFIER=0x08;  // To press win key
-				keyBoardHIDsub.KEYCODE1=7;
+				keyBoardHIDsub.KEYCODE1=key_sel;
 				keyBoardHIDsub.KEYCODE2=0;  // Press d key
 				USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
 				HAL_Delay(50);
