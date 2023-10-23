@@ -153,8 +153,9 @@ int main(void)
   ssd1306_Init(&hi2c1);
   ssd1306_Fill(Black);
 	
-	if ( HAL_GPIO_ReadPin(PCB_BTN_GPIO_Port, PCB_BTN_Pin) == 0 )
-		key_sel = CLEAR_SCREEN_WIN;
+	if ( HAL_GPIO_ReadPin(PCB_BTN_GPIO_Port, PCB_BTN_Pin) == 1 )
+		key_sel = CLEAR_SCREEN_MAC;
+	else key_sel = CLEAR_SCREEN_WIN;
 	
   ssd1306_SetCursor(5, 10);
   ssd1306_WriteString("Pomodoro", Font_11x18, White);

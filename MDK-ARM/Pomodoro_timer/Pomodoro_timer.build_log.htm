@@ -27,13 +27,13 @@ Project File Date:  09/29/2023
 <h2>Output:</h2>
 *** Using Compiler 'V6.18', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'Pomodoro_timer'
-../Core/Src/main.c(354): warning: incompatible pointer types passing 'subKeyBoard *' to parameter of type 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+../Core/Src/main.c(355): warning: incompatible pointer types passing 'subKeyBoard *' to parameter of type 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
                                 USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
                                                                   ^~~~~~~~~~~~~~~
 ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc\usbd_hid.h(119): note: passing argument to parameter 'report' here
 uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
                                                                ^
-../Core/Src/main.c(359): warning: incompatible pointer types passing 'subKeyBoard *' to parameter of type 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+../Core/Src/main.c(360): warning: incompatible pointer types passing 'subKeyBoard *' to parameter of type 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
                                 USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));      
                                                                   ^~~~~~~~~~~~~~~
 ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc\usbd_hid.h(119): note: passing argument to parameter 'report' here
@@ -42,7 +42,7 @@ uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t 
 2 warnings generated.
 compiling main.c...
 linking...
-Program Size: Code=23184 RO-data=3900 RW-data=356 ZI-data=5236  
+Program Size: Code=23172 RO-data=3900 RW-data=356 ZI-data=5236  
 FromELF: creating hex file...
 "Pomodoro_timer\Pomodoro_timer.axf" - 0 Error(s), 2 Warning(s).
 
@@ -68,7 +68,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS/Core/Include/tz_context.h
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>
